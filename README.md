@@ -15,16 +15,16 @@ inventorymgtsys is a scheme with the tables:
 The user and company passwords are encrypted using bcrypt hashing function.
 
 user login page:
-![login img](userLogin.png)
+![login img](/src/images/userLogin.png)
 
 user registration page:
-![user registration page](userReg.png)
+![user registration page](/src/images/userReg.png)
 
 company registration page:
-![comp reg img](companyreg.png)
+![comp reg img](/src/images/companyreg.png)
 
 employee portal page:
-![emp pg](employeepage.png)
+![emp pg](/src/images/employeepage.png)
 
 admin portal page:
-![admin pg](adminpage)
+![admin pg](/src/images/adminpage)
