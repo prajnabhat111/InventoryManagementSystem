@@ -237,7 +237,12 @@ public class TransactionPage extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(table.getRowCount()==0) {
+				try {
+					items = productdao.getAllProduct(rid);
+				} catch (Exception e1) {
+					e1.printStackTrace();
+				}
+				if(items.isEmpty()) {
 					initial = true;
 				}
 				
